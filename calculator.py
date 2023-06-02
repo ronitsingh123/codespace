@@ -5,4 +5,4 @@ y = int(input("y: "))
 
 z = x / y
 
-print()
+print(f"{z: .50f}")
