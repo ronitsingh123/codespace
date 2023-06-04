@@ -1,3 +1,6 @@
-from cs50 import get_int
+scores = [72, 63, 33]
+
+average = sum(scores) / len(scores)
+print("Average",+ average)
 
 
