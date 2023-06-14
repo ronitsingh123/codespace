@@ -1,7 +1,11 @@
-from sys import argv
+import sys
 
-if len(argv) == 2:
-    print("Hello,", argv[1])
+names = ["Ron", "Harry", "Hermoine"]
 
-else:
-    print("Hello world")
+for n in names:
+    name = input("Name: ")
+    if n == name:
+        print("Found")
+        sys.exit(0)
+print("Not found")
+sys.exit(1)
