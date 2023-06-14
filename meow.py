@@ -7,3 +7,9 @@ def meow():
     print("meow")
 
 main()
+
+
+
+try:
+except ValueError:
+    print("Not acceptable")
