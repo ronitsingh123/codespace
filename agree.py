@@ -1,9 +1,7 @@
 from cs50 import get_int
 
-while True:
-    n = get_int("Height: ")
-    if n > 0:
-         break
+scores = []
+for i in range(3):
+    score = get_int("Score: ")
+    scores.append(score)
 
-for i in range(n):
-    print("#")
