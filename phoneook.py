@@ -3,4 +3,4 @@ people = {
        "David": "004040403030"
 }
 
-name = input
+name = input("Name: ")
