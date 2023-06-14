@@ -1,9 +1,4 @@
-import csv
+import sys
 
-with open("phonebook.csv", "a") as file:
-
-    name = input("Name: ")
-    number = input("Number: ")
-
-    writer = csv.writer(file)
-    writer.writerow([name, number])
+if len(argv) == 2:
+    print("hello,", argv[1])
