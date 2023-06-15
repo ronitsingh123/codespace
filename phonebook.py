@@ -1,8 +1,2 @@
-name = input("Whats your name? ")
-    
-match name:
-    case "ronit":
-        print("Hello")
-
-    case _:
-        print("dont know")
+for i in range(3):
+    print("meow")
