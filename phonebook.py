@@ -1,9 +1,5 @@
-name = input("Whats your name? ")
+name = input("Whats your name?  " )
 
 match name:
-    case "Ronit":
-        print("Gryffindor")
-    case "Harbeet":
-        print("Bitch")
-    case _:
-        print("")
+    case "ronit":
+        print("Hello")
