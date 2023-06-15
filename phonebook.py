@@ -1,7 +1,9 @@
-from sys import argv
+name = input("Whats your name")
 
-if len(argv) == 2:
-    print(f"hello {argv[1]}")
-
-else:
-    print("Hello world")
+match name:
+    case "Ronit":
+        print("Gryffindor")
+    case "Harbeet":
+        print("Bitch")
+    case _:
+        print("WHo?")
