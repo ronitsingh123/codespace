@@ -6,4 +6,4 @@ match name:
     case "Harbeet":
         print("Bitch")
     case _:
-        print("Nigga?")
+        print("")
