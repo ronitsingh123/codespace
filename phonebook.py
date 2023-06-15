@@ -4,7 +4,7 @@ def main():
 
 def get_number():
     while True:
-    n = int(intput("Number: "))
+        n = int(intput("Number: "))
     if n < 0:
         break
 
