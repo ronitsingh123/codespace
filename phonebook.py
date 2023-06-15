@@ -5,8 +5,8 @@ def main():
 def get_number():
     while True:
         n = int(intput("Number: "))
-    if n < 0:
-        break
+        if n < 0:
+            break
 
 def meow(n):
     print("meow")
