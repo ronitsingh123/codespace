@@ -1,2 +1,5 @@
-for i in range(3):
-    print("meow")
+
+while True:
+    i = 0
+    if i < /:
+        print("meow")
