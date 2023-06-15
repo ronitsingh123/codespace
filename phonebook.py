@@ -1,4 +1,4 @@
-name = input("Whats your name")
+name = input("Whats your name? ")
 
 match name:
     case "Ronit":
@@ -6,4 +6,4 @@ match name:
     case "Harbeet":
         print("Bitch")
     case _:
-        print("WHo?")
+        print("Nigga?")
