@@ -1,4 +1,7 @@
-import sys
+import argv
 
-if len(argv) == 2:
-    print("hello,", argv[1])
+if len[argv] == 2:
+    print(f"hello {argv[1]}")
+
+else:
+    print("Hello world")
