@@ -1,9 +1,4 @@
-people = {
-       "Carter": "+29299292929",
-       "David": "004040403030"
-}
+students = ("Hermoine", "Granger", "Ron")
 
-name = input("Name: ")
-if name in people:
-    number = people[name]
-    print(f"Number: {number}")
+for student in students:
+    print (student)
