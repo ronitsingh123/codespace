@@ -1,8 +1,6 @@
-rows = int(input("Enter rows: "))
-columns = int(input("Enter columns: "))
-symbol = input("Enter symbol: ")
+list = ["pizza", "hamburger", "burger"]
 
-for i in range(rows):
-    for j in range(columns):
-        print(symbol, end="")
-    print()
+list.append("sushi")
+for i in  list:
+    print(i)
+
