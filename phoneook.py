@@ -10,3 +10,6 @@ try:
 except Exception:
     print("something went wring kiddo")
 
+else:
+    print(x)
+
