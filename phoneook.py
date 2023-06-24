@@ -1,5 +1,11 @@
-import random
-ok = ['Burger' , 'Sushi']
-x = random.choice(ok)
-print(x)
 
+try:
+    num = int(input("Type numerator"))
+    den = int(input("Type denominator"))
+
+    x = num / den
+
+    print(x)
+
+except valueError:
+    
