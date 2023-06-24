@@ -1,6 +1,5 @@
-list = ["pizza", "hamburger", "burger"]
-
-list.append("sushi")
-for i in  list:
-    print(i)
+import random
+ok = ['Burger' , 'Sushi']
+x = random.choice(ok)
+print(x)
 
