@@ -7,5 +7,6 @@ try:
 
     print(x)
 
-except valueError:
-    
+except Exception:
+    print("something went wring kiddo")
+
